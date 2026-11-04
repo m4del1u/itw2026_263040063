@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+html {
+    background-color:#110101 ;
+}
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+main .profile h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #110101;
+    color: #f4f4f4;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+header .genre-tags {
+    margin-top: 10px;
+}
+
+
+header .genre-tags .genre {
+    display: inline-block;
+    background-color: #494242f7;
+    color: #fff;
+    padding: 6px 16px;  
+    margin: 0 5px;
+    border-radius: 20px; 
+    font-size: 0.9em;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+main .artist-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover;  
+    display: block;
+    margin: 20px auto; 
+    border: 5px solid #4a4343;
+    margin-bottom: 20px;
+}
+
+.bio {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.bio p {
+    margin-bottom: 15px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.stat-item {
+    margin: 10px;
+}
+
+.album-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+main .profile-card .bio {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main .profile-card .bio p {
+    margin-bottom: 15px;
+}
+
+main .profile-card .stats {
+   margin-top: 30px;
+
+}
+
+.stat-item {
+    display: inline-block;
+    width: 150px;
+    padding: 20px;
+    background-color: #b6b1b1;
+    margin: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid #4f4d4d;
+}
+
+main .profile-card .stats .stat-item .stat-value {
+    font-size: 2em;
+    font-weight: bold;
+    color: #433f3f;
+}
+
+main .profile-card .stats .stat-item .stat-label {
+    font-size: 1em;
+    color: #f90808;
+    text-align:center;
+}
+
+
+main .discoghraphy {
+    margin: 50px 0;
+}
+
+main .discoghraphy h2,
+main .social-links h2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+main .discoghraphy .album-list .album-card {
+   display: inline-block;
+   width: 200px;
+   text-align: center;
+   margin: 10px;
+}
+
+main .discoghraphy .album-list .album-card {
+   display: inline-block;
+   width: 200px;
+   text-align: center;
+   margin: 10px;
+   padding: 10px;
+   background-color: #f0f0f0;
+   border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main .discoghraphy .album-list .album-card img {
+   width: 150px;
+   height: 150px;
+   border-radius: 8px;
+   margin-bottom: 10px;
+}
+
+main .discoghraphy .album-list .album-card h3 {
+   font-size: 1.1em;
+   margin-bottom: 15px;
+}
+
+main .discoghraphy .album-list .album-card p {
+   font-size: 0.9em;
+   color: #555;
+   margin-bottom: 15px;
+}
+
+main .discoghraphy .album-list .album-card .btn-listen {
+   display: inline-block;
+   padding: 8px 16px;
+   background-color: #696666;
+   color: #fff;
+   padding: 8px 20px;
+   border-radius: 5px;
+   font-size: 0.9em;
+   text-decoration: none;
+}
+
+main .discoghraphy .album-list .album-card .btn-listen:hover {
+   background-color: #494242;
+}
+
+main .social-links {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f3eded;
+    border-radius: 12px;
+    margin: 30px 0;
+}
+
+main .social-links .social-btn {
+    display: inline-block;
+    background-color: #110101;
+    color: white;
+    padding: 12px 30px;
+    margin: 10px;
+border-radius: 25px;
+text-decoration: none;
+font-weight: bold;
+}
+
+main .social-links .social-btn:hover {
+    background-color: #333;
+}
+
+footer {
+    text-align: center ;
+    padding: 30px;
+    background-color:#110101;
+    color: #f3eded;
+    margin-top: 50px;
+
+}
+
+footer p{
+    margin-bottom: 10px;
+}
+
+footer a{
+    color: #605d5d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
